@@ -11,7 +11,7 @@ local humanoid = character:WaitForChild("Humanoid")
 local LatestRoom = ReplicatedStorage:WaitForChild("GameData"):WaitForChild("LatestRoom")
 
 -- Load shadow asset
-local shadowAsset = game:GetObjects("rbxassetid://11780280932")[1]
+local shadowAsset = game:GetObjects("rbxassetid://11879022454")[1]
 if not shadowAsset then
 	warn("Không load được shadow asset")
 	return
